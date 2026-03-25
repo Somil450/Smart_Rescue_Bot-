@@ -1,0 +1,39 @@
+name: smart_rescue_app
+description: Smart Rescue Robot Control App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Bluetooth communication
+  flutter_bluetooth_serial: ^0.4.0
+
+  # Voice recognition
+  speech_to_text: ^6.0.0
+
+  # Email alerts
+  mailer: ^6.0.1
+
+  # Permissions
+  permission_handler: ^11.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+  uses-material-design: true
